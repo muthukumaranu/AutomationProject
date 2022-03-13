@@ -1,0 +1,9 @@
+
+
+Our code should store in Git repo
+
+Jenkins - should connect 
+
+Jenkins - Git repo
+
+jenkins - Pom.xml --- Testng.xml-- Scripting -- Main Method - Baseclass ---Page Object Model

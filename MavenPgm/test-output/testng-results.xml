@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-12T20:25:51 PST" name="Suite" finished-at="2022-03-12T20:27:10 PST" duration-ms="79129">
+    <groups>
+    </groups>
+    <test started-at="2022-03-12T20:25:51 PST" name="Test" finished-at="2022-03-12T20:27:10 PST" duration-ms="79129">
+      <class name="com.test.MultiTest">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.MultiTest@564fabc8]" started-at="2022-03-12T20:26:33 PST" name="Initalization" finished-at="2022-03-12T20:26:40 PST" duration-ms="7734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initalization -->
+        <test-method signature="SelectDropDown()[pri:0, instance:com.test.MultiTest@564fabc8]" started-at="2022-03-12T20:26:40 PST" name="SelectDropDown" finished-at="2022-03-12T20:26:41 PST" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDropDown -->
+        <test-method signature="AdvanceDropDown()[pri:0, instance:com.test.MultiTest@564fabc8]" started-at="2022-03-12T20:26:41 PST" name="AdvanceDropDown" finished-at="2022-03-12T20:26:43 PST" depends-on-methods="com.test.MultiTest.SelectDropDown" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvanceDropDown -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.test.MultiTest@564fabc8]" started-at="2022-03-12T20:26:43 PST" name="cleanup" finished-at="2022-03-12T20:26:47 PST" duration-ms="4127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.test.MultiTest -->
+      <class name="AutomationPracticeWebsite.automationpracticewebsiteTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:AutomationPracticeWebsite.automationpracticewebsiteTest@16d04d3d]" started-at="2022-03-12T20:26:47 PST" name="initialization" finished-at="2022-03-12T20:26:53 PST" duration-ms="5876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="women()[pri:0, instance:AutomationPracticeWebsite.automationpracticewebsiteTest@16d04d3d]" started-at="2022-03-12T20:26:53 PST" name="women" finished-at="2022-03-12T20:26:57 PST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- women -->
+        <test-method signature="dress(org.testng.ITestContext)[pri:0, instance:AutomationPracticeWebsite.automationpracticewebsiteTest@16d04d3d]" started-at="2022-03-12T20:26:57 PST" name="dress" finished-at="2022-03-12T20:27:08 PST" depends-on-methods="AutomationPracticeWebsite.automationpracticewebsiteTest.women" duration-ms="11879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a6cf771]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dress -->
+        <test-method signature="pricecheck(org.testng.ITestContext)[pri:0, instance:AutomationPracticeWebsite.automationpracticewebsiteTest@16d04d3d]" started-at="2022-03-12T20:27:08 PST" name="pricecheck" finished-at="2022-03-12T20:27:10 PST" depends-on-methods="AutomationPracticeWebsite.automationpracticewebsiteTest.dress" duration-ms="1910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a6cf771]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricecheck -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:AutomationPracticeWebsite.automationpracticewebsiteTest@16d04d3d]" started-at="2022-03-12T20:27:10 PST" name="cleanup" finished-at="2022-03-12T20:27:10 PST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- AutomationPracticeWebsite.automationpracticewebsiteTest -->
+      <class name="com.test.MultiTest1">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.test.MultiTest1@72d1ad2e]" started-at="2022-03-12T20:25:51 PST" name="initialization" finished-at="2022-03-12T20:25:51 PST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:com.test.MultiTest1@72d1ad2e]" started-at="2022-03-12T20:25:51 PST" name="openWebsite" finished-at="2022-03-12T20:25:59 PST" duration-ms="7810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="yatra()[pri:0, instance:com.test.MultiTest1@72d1ad2e]" started-at="2022-03-12T20:25:59 PST" name="yatra" finished-at="2022-03-12T20:25:59 PST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yatra -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.test.MultiTest1@72d1ad2e]" started-at="2022-03-12T20:25:59 PST" name="close" finished-at="2022-03-12T20:26:03 PST" duration-ms="4113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:com.test.MultiTest1@72d1ad2e]" started-at="2022-03-12T20:26:03 PST" name="openWebsite" finished-at="2022-03-12T20:26:11 PST" duration-ms="7172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="yatra1()[pri:0, instance:com.test.MultiTest1@72d1ad2e]" started-at="2022-03-12T20:26:11 PST" name="yatra1" finished-at="2022-03-12T20:26:28 PST" duration-ms="17750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yatra1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.test.MultiTest1@72d1ad2e]" started-at="2022-03-12T20:26:28 PST" name="close" finished-at="2022-03-12T20:26:33 PST" duration-ms="4148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.test.MultiTest1@72d1ad2e]" started-at="2022-03-12T20:26:33 PST" name="quit" finished-at="2022-03-12T20:26:33 PST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.test.MultiTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
