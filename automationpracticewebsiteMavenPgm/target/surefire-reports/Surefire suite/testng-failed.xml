@@ -6,7 +6,7 @@
       <class name="AutomationPracticeWebsite.automationpracticewebsiteTest">
         <methods>
           <include name="pricecheck"/>
-          <include name="dress" invocation-numbers="0"/>
+          <include name="dress"/>
           <include name="women"/>
           <include name="cleanup"/>
           <include name="initialization"/>

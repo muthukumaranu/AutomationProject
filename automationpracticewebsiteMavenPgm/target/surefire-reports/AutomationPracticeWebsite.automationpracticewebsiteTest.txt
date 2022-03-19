@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: AutomationPracticeWebsite.automationpracticewebsiteTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.177 s - in AutomationPracticeWebsite.automationpracticewebsiteTest
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 2.626 s <<< FAILURE! - in AutomationPracticeWebsite.automationpracticewebsiteTest
+initialization(AutomationPracticeWebsite.automationpracticewebsiteTest)  Time elapsed: 2.337 s  <<< FAILURE!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-A920OEJ', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f81ddb54691ff86530f7e539bd156c64, get {url="http://automationpractice.com/index.php"}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\muthu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52233/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f81ddb54691ff86530f7e539bd156c64
+	at AutomationPracticeWebsite.automationpracticewebsiteTest.initialization(automationpracticewebsiteTest.java:34)
+
