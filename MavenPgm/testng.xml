@@ -5,7 +5,7 @@
     <classes>
       <class name="com.test.MultiTest1"/>
       <class name="com.test.MultiTest"/>
-      <class name="AutomationPracticeWebsite.automationpracticewebsiteTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

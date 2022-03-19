@@ -19,7 +19,7 @@ public class MultiTest1 {
 	@BeforeClass
 	public void initialization() {
 		
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\muthu\\Desktop\\SeleniumJars\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
 	
 	}
 	
