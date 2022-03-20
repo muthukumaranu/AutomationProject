@@ -66,7 +66,7 @@
           <version>2.22.1</version>
 				<configuration>
                   <suiteXmlFiles>
-                     <suiteXmlFile>C:\Users\muthu\Desktop\GitMaster\AutomationProject\automationpracticewebsiteMavenPgm\pom.xml</suiteXmlFile>
+                     <suiteXmlFile>C:\Users\muthu\Desktop\GitMaster\AutomationProject\automationpracticewebsiteMavenPgm\testng.xml</suiteXmlFile>
                   </suiteXmlFiles>
                </configuration>
         </plugin>
